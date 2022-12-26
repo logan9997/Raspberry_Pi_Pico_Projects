@@ -20,7 +20,7 @@ MORSE_CODE_DICT = { 'A':'.-', 'B':'-...',
 
 DELAYS = {"-":0.75, ".":0.25}
 
-word = "NO"#input("Enter word: ").upper()
+word = input("Enter word: ").upper()
 
 led = Pin(15, Pin.OUT)
 
